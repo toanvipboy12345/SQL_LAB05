@@ -53,7 +53,7 @@ GO
 CREATE VIEW SV_Nam_Khoa_AV AS
 SELECT MaSV, HoSV + ' ' + TenSV AS HoTen, Phai
 FROM SinhVien
-WHERE Phai = 1 AND MaKH = 'AV';
+WHERE Phai =0 AND MaKH = 'AV';
 GO
 SELECT * FROM SV_Nam_Khoa_AV;
 GO
